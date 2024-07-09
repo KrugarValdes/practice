@@ -1,0 +1,67 @@
+.Layout-mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.Header-mainLogo {
+  height: 32px;
+}
+
+.Panel {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Panel-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.gzl-Input input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.gzl-Button {
+  padding: 10px;
+  background-color: #0073b9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.Button-link {
+  text-decoration: none;
+  color: #0073b9;
+  cursor: pointer;
+}
+
+.Button--fullwidth {
+  width: 100%;
+}
+
+.u-textAlignCenter {
+  text-align: center;
+}
